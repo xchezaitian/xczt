@@ -1,6 +1,7 @@
 package top.xczt.boot.config.entity;
 
 import lombok.Data;
+import org.hibernate.validator.constraints.Length;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
