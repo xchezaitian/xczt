@@ -1,8 +1,9 @@
 family:
   family-name: "happy family"
-  father: "Jack"
+  father: "JackJack"
   mother: "Rose"
   child: "Tom"
+  years: ${random.int(5,10)}
 
 person:
   name: 张飞
