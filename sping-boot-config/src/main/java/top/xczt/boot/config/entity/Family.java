@@ -11,7 +11,7 @@ import org.springframework.validation.annotation.Validated;
 @Data
 @Component
 @Validated
-//@ConfigurationProperties(prefix = "family")  //整体前缀
+@ConfigurationProperties(prefix = "family")  //整体前缀
 @PropertySource(value ={"classpath:family.properties"} ) //加载外部配置文件
 public class Family {
 

@@ -15,8 +15,14 @@ public class EmployeeTest {
 
     @Test
     void testemployee(){
-        List<String> employeeNames=employee.getEmployeeNames();
-        employeeNames.forEach(name -> System.out.println(name));
+//        List<String> employeeNames=employee.getEmployeeNames();
+//        employeeNames.forEach(System.out::println);
+
+//        System.out.println(employee.getEmployeeAges());
+
+//        System.out.println(employee.getJavaHome());
+
+        System.out.println(employee.getUserDir());
     }
 
 }
